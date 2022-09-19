@@ -1,0 +1,272 @@
+/*
+    version:1.0.0
+    author: A.Eshghi
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Yekan;
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.ttf');
+    src: url('../fonts/Yekan.woff');
+}
+/*header balaye safhe*/
+header>a>img{
+    width: 100%;
+}
+/*logo va search bar*/
+div.headbala>a.digi>img{
+    width: 10%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 1%;
+}
+div.headbala>a.search>img{
+    width: 88%;
+    margin-top: 3px;
+}
+/*menu bala*/
+nav.menu>h4{
+    width: 100%;
+}
+nav.menu>h4>a{
+    font-size: auto;
+    font-family: Yekan;
+    direction: rtl;
+    text-decoration: none;
+    display: inline;
+    margin-top: 2px;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 90%;
+    padding: 0 10px;
+    text-align: center;
+    transition: all 50ms linear;
+}
+nav.menu>h4>a.daste{
+    margin-right: 1%; 
+    margin-left: 1%;
+    font-size: auto;
+    font-family: Yekan;
+    direction: rtl;
+    text-decoration: none;
+    display: inline;
+    margin-top: 2px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 90%;
+    padding: 0 10px;
+    text-align: center;
+    transition: all 50ms linear;
+}
+nav.menu>h4>a:hover{
+    color: dimgray;
+    border-bottom: 3px solid red;
+    transform: scale(1,1);
+}
+/* GIF slider*/
+div.sliderone{
+    width: 98%;
+    margin: 20px auto;
+}
+div.sliderone>a>img{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+}
+/*menu marboot be digi plus va jet va ds va... zir GIF*/
+nav.digi>h4>a>img{
+    width: 7%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+/* اسلایدر پیشنهاد شگفت انگیز*/
+div.bestoffer{
+    width: 96%;
+    margin: 10px auto;
+    height: auto;
+    background-color: #EF3B51;
+    border-radius: 20px;
+    direction: rtl;
+    text-align: center;
+}
+div.bestoffer>div.offerlogo{
+    display: inline-block;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    width: 15%;
+}
+div.bestoffer>div.offerlogo>a>img{
+    width: 100%;;
+}
+div.bestoffer>div.blocks{
+    display: inline-block;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 14%;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    overflow: auto;
+}
+div.bestoffer>div.blocks>a>img{
+    width: 100%;
+    border-radius: 15px;
+    object-position: center center;
+}
+div.bestoffer>div.blocks>a{
+    text-decoration: none;
+    color: black;
+    font-family: Yekan;
+    font-size: 20px;
+}
+div.marketoffer{
+    margin: 10px auto;
+    width: 99%;
+}
+div.marketoffer>a>img{
+    width: 100%;
+    margin: 10px auto;
+}
+/* خرید پستو و تاژ و اکتیدنت و مزپف*/
+div.kharid{
+    margin: 10px auto;
+    width: 100%;
+}
+div.kharid>a.aval>img{
+    width: 22.5%;
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+div.kharid>a.akhar>img{
+    width: 22.5%;
+    border-radius: 20px;
+    margin-right: 2%;
+}
+div.kharid>a.second>img{
+    width: 22.5%;
+    border-radius: 20px;
+    margin-right: 1%;
+}
+/* menu daste bandi kala*/
+div.dastebandi>h1{
+    font-family: Yekan;
+    text-align: center;
+    background-color: antiquewhite;
+    border-width: 3px;
+    border-color: crimson;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+div.dastebandi>h4>a{
+    font-size: 20px;
+    font-family: Yekan;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline;
+    margin-top: 2px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 90%;
+    padding: 0 10px;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 300ms linear;
+}
+div.dastebandi>h4>a:hover{
+    color: firebrick;
+    background-color: lightcoral;
+    transform: scale(0.9,0.9);
+}
+/*slider shoyande va poshak*/
+div.shoyande{
+    margin: 10px auto;
+    width: 100%;
+}
+div.shoyande>a>img{
+    width: 47.5%;
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 15px;
+}
+/*digiplus*/
+div.digiplus{
+    margin: 10px auto;
+    width: 98%;
+}
+div.digiplus>a>img{
+    width: 100%;
+}
+/*digiclub*/
+div.digiclub{
+    margin: 10px auto;
+    width: 98%;
+    height: auto;
+    background-image: radial-gradient(circle, #a34a38, #972c3f, #810e4a, #610055, #31095c);
+    border-radius: 10px;
+}
+div.digiclub>a.logo>img{
+    margin: 10px auto;
+    width: 30%;
+    display: block;
+}
+div.digiclub>a>img{
+    width: 30%;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-bottom: 15px;
+    background-image: radial-gradient(circle, #f6beea, #d8b2e7, #b6a7e1, #919dd8, #6893cb);
+}
+/*توضیحات اخریه صفحه دیجیکالا*/
+div.outro{
+    margin: 10px auto;
+    width: 100%;
+    direction: rtl;
+}
+div.outro>h2{
+    text-align: center;
+    font-family: Yekan;
+}
+div.outro>p{
+    margin-right: 8%;
+    margin-left: 8%;
+    font-family: Yekan;
+    text-align: justify;
+}
+div.outro>details>summary{
+    margin-right: 8%;
+    margin-left: 8%;
+    font-family: Yekan;
+    text-align: center;
+}
+div.outro>details{
+    margin-right: 6%;
+    margin-left: 6%;
+    font-family: Yekan;
+    text-align: justify;
+}
+div.outro>h3{
+    direction: ltr;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+/*Footer*/
+footer{
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black; 
+    background-image: linear-gradient(to top, #ff0000, #e78200, #d0b748, #cadd9c, #e6f9e8);
+}
